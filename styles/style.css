@@ -56,7 +56,7 @@ a:hover{
 
 /* Home */
 .home{
-    background: url(/images/bg-home-office-bookshelf.jpg) no-repeat;
+    background: url(images/bg-home-office-bookshelf.jpg) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;

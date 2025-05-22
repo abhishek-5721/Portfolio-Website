@@ -1,0 +1,130 @@
+/* Global Styles */
+/* Color Themes 
+Yellow
+#fbe7c6
+
+Mint
+#b4f8c8
+
+Tiffany Blue
+#a0e7e5
+
+Hot Pink
+#ffaebc
+*/
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+}
+body{
+    background: #e9eae0;
+}
+a {
+    color: #a0e7e5;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #b4f8c8;
+    text-decoration: none;
+}
+
+.btn{
+    background:#ffaebc;
+    color:#f6f6f6;
+    text-decoration:none;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 7px;
+    letter-spacing: .1em;
+    line-height: 1;
+    border-radius: 4px;
+}
+
+.content-wrapper{
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+/* Home */
+.home{
+    background: url(/images/bg-home-office-bookshelf.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .content-wrapper{
+    flex: 1 0 auto;
+}
+.home .content-bg{
+    background-color: #fbe7c69a;
+}
+
+
+/* Resume */
+.resume header::before{
+    background: url(../images/bg-home-office-studio.jpg) center;
+    background-size: cover;
+    display: block;
+    content:"";
+    height: 375px;
+    
+}
+
+.resume-section{
+    margin-bottom: 50px;
+}
+.resume-section h2{
+    border-bottom: 2px dashed lightgray;
+}
+
+
+/* Project */
+.project-item{
+    margin: 30px 0;
+    display: flow-root;
+}
+.project-item img{
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+}
+
+
+/* Education */
+.education-item{
+    margin: 30px 0;
+}
+.education-item p{
+    margin:0;
+}
+
+/* Footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
+}
+
+.socials{
+    list-style-type: none;
+    padding:0;
+}
+.socials li{
+    display:inline-block;
+    margin-left: 10px;
+}
+.socials img{
+    width: 32px;
+}
+.socials img:hover{
+    opacity: 0.5;
+}
